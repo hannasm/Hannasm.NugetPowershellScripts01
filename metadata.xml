@@ -1,6 +1,7 @@
 <solution>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <releaseNotes>
+    * 1.0.2 - content files weren't being included because nuget requires backslashes instead of forward slashes apparently
     * 1.0.1 - This is the first release
   </releaseNotes>
 </solution>

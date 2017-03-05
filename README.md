@@ -1,10 +1,10 @@
 # Versioning
 
-This is version 1.0.1 of the nuget powershellscripts project
+This is version 1.0.2 of the nuget powershellscripts project
 
-The source code for this project is available for download from: https://github.com/hannasm/Hannasm.NugetPowershellScripts01/releases/tag/1.0.1
+The source code for this project is available for download from: https://github.com/hannasm/Hannasm.NugetPowershellScripts01/releases/tag/1.0.2
 
-The nuget package for this project is available at: https://www.nuget.org/packages/Hannasm.NugetPowershellScripts01/1.0.1
+The nuget package for this project is available at: https://www.nuget.org/packages/Hannasm.NugetPowershellScripts01/1.0.2
 
 # Hannasm.NugetPowershellScripts01
 
@@ -59,5 +59,5 @@ This package provides a hand-built toolset for creating and publishing nuget pac
 
 
 # Release Notes
-
+ * 1.0.2 - content files weren't being included because nuget requires backslashes instead of forward slashes apparently
  * 1.0.1 - This is the first release
