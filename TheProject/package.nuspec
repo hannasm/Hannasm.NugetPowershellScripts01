@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hannasm.NugetPowershellScripts01</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>hannasm</authors>
     <owners>hannasm</owners>
     <licenseUrl>https://github.com/hannasm/Hannasm.NugetPowershellScripts01/blob/master/LICENSE.md</licenseUrl>
@@ -10,6 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Set of scripts useful for creating and publishing nuget packages.</description>
     <releaseNotes>
+    * 1.0.3 - nuget conveniently deletes files ending with .nuspec from the package even when you explicitly try to include them, so had to workaround that
     * 1.0.2 - content files weren't being included because nuget requires backslashes instead of forward slashes apparently
     * 1.0.1 - This is the first release
   </releaseNotes>
@@ -24,7 +25,7 @@
     <file src="..\PublishNugetPackages.ps1" target="content\" />
     <file src="..\UpdateNugetPackageIfNeeded.ps1" target="content" />
     <file src="..\metadata.template.xml" target="content\metadata.xml" />
-    <file src="..\package.template.nuspec" target="content" />
+    <file src="..\package.nuspec.template" target="content\" />
   </files>
 </package>
 <!-- vim: set expandtab ts=2 sw=2:  -->

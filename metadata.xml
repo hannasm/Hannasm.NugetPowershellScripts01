@@ -1,6 +1,7 @@
 <solution>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <releaseNotes>
+    * 1.0.3 - nuget conveniently deletes files ending with .nuspec from the package even when you explicitly try to include them, so had to workaround that
     * 1.0.2 - content files weren't being included because nuget requires backslashes instead of forward slashes apparently
     * 1.0.1 - This is the first release
   </releaseNotes>
