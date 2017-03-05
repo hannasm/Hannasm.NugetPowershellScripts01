@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5AABDD5-3F00-4E03-AEA3-021BF0770720}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		BumpVersionInstructions.md = BumpVersionInstructions.md
+		BumpVersionInstructions.template.md = BumpVersionInstructions.template.md
+		GenerateAssemblyInfo.ps1 = GenerateAssemblyInfo.ps1
+		GenerateNugetPackages.ps1 = GenerateNugetPackages.ps1
+		LICENSE.md = LICENSE.md
+		metadata.template.xml = metadata.template.xml
+		metadata.xml = metadata.xml
+		package.template.nuspec = package.template.nuspec
+		PublishNugetPackages.ps1 = PublishNugetPackages.ps1
+		README.md = README.md
+		UpdateNugetPackageIfNeeded.ps1 = UpdateNugetPackageIfNeeded.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheProject", "TheProject\TheProject.csproj", "{A20DBD97-FB5C-4637-BF9D-8DD791386914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20DBD97-FB5C-4637-BF9D-8DD791386914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20DBD97-FB5C-4637-BF9D-8DD791386914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20DBD97-FB5C-4637-BF9D-8DD791386914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20DBD97-FB5C-4637-BF9D-8DD791386914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

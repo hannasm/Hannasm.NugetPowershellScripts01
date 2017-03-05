@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Hannasm.NugetPowershellScripts01</id>
+    <version>0.0.1</version>
+    <authors>hannasm</authors>
+    <owners>hannasm</owners>
+    <licenseUrl>https://github.com/hannasm/Hannasm.NugetPowershellScripts01/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/hannasm/Hannasm.NugetPowershellScripts01/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Set of scripts useful for creating and publishing nuget packages.</description>
+    <releaseNotes>
+    * 1.0.0 - This is the first release
+  </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+  <files>
+    <file src="../readme.md" target="Content/README_Hannasm_NugetPowershellScripts01.md" />
+    <file src="bin/debug/TheProject.dll" target="lib/0f5e8d48-e102-406e-a100-c4bbc4ecc61d.dll" />
+    <!-- this is a workaroundbecause nuget wont create the package without a dll apparently -->
+    <file src="../LICENSE.md" target="content/LICENSE_Hannasm_NugetPowershellScripts01.md" />
+    <file src="../BumpVersionInstructions.md" target="content" />
+    <file src="../GenerateAssemblyInfo.ps1" target="content" />
+    <file src="../GenerateNugetPackages.ps1" target="content" />
+    <file src="../PublishNugetPackages.ps1" target="content" />
+    <file src="../UpdateNugetPackageIfNeeded.ps1" target="content" />
+    <file src="../metadata.template.xml" target="content/metadata.xml" />
+    <file src="../package.template.nuspec" target="content" />
+  </files>
+</package>
+<!-- vim: set expandtab ts=2 sw=2:  -->
