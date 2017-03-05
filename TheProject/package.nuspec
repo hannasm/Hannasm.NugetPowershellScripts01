@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Hannasm.NugetPowershellScripts01</id>
-    <version>0.0.1</version>
+    <version>1.0.1</version>
     <authors>hannasm</authors>
     <owners>hannasm</owners>
     <licenseUrl>https://github.com/hannasm/Hannasm.NugetPowershellScripts01/blob/master/LICENSE.md</licenseUrl>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Set of scripts useful for creating and publishing nuget packages.</description>
     <releaseNotes>
-    * 1.0.0 - This is the first release
+    * 1.0.1 - This is the first release
   </releaseNotes>
     <copyright>Copyright 2017</copyright>
   </metadata>
